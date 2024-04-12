@@ -41,6 +41,13 @@
       "type": "separator"
     },
     {
+      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
+      "type": "profile"
+    },
+    {
+      "type": "separator"
+    },
+    {
       "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba31}",
       "type": "profile"
     },
@@ -63,13 +70,6 @@
     {
       "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba36}",
       "type": "profile"
-    },
-    {
-      "type": "separator"
-    },
-    {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
-      "type": "profile"
     }
   ],
   "profiles": {
@@ -81,7 +81,9 @@
         "size": 10.0
       },
       "opacity": 100,
-      "useAtlasEngine": false
+      "useAtlasEngine": true,
+      "antialiasingMode": "cleartype",
+      "bellStyle": "window"
     },
     "list": [
       {
@@ -181,7 +183,7 @@
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832babaab}",
         "hidden": true,
         "name": "log_profile",
-        "padding": 4
+        "padding": "4"
       },
       {
         "colorScheme": "Nord",
@@ -197,29 +199,6 @@
     ]
   },
   "schemes": [
-    {
-      "name": "nord-light",
-      "black": "#3b4252",
-      "red": "#bf616a",
-      "green": "#a3be8c",
-      "yellow": "#ebcb8b",
-      "blue": "#81a1c1",
-      "purple": "#b48ead",
-      "cyan": "#88c0d0",
-      "white": "#d8dee9",
-      "brightBlack": "#4c566a",
-      "brightRed": "#bf616a",
-      "brightGreen": "#a3be8c",
-      "brightYellow": "#ebcb8b",
-      "brightBlue": "#81a1c1",
-      "brightPurple": "#b48ead",
-      "brightCyan": "#8fbcbb",
-      "brightWhite": "#eceff4",
-      "background": "#e5e9f0",
-      "foreground": "#414858",
-      "selectionBackground": "#d8dee9",
-      "cursorColor": "#88c0d0"
-    },
     {
       "background": "#0C0C0C",
       "black": "#0C0C0C",
@@ -265,6 +244,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#2E3440",
+      "black": "#3B4252",
+      "blue": "#81A1C1",
+      "brightBlack": "#4C566A",
+      "brightBlue": "#81A1C1",
+      "brightCyan": "#88C0D0",
+      "brightGreen": "#A3BE8C",
+      "brightPurple": "#B48EAD",
+      "brightRed": "#BF616A",
+      "brightWhite": "#E5E9F0",
+      "brightYellow": "#EBCB8B",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#88C0D0",
+      "foreground": "#D8DEE9",
+      "green": "#A3BE8C",
+      "name": "Nord",
+      "purple": "#B48EAD",
+      "red": "#BF616A",
+      "selectionBackground": "#FFFFFF",
+      "white": "#E5E9F0",
+      "yellow": "#EBCB8B"
     },
     {
       "background": "#282C34",
@@ -359,6 +361,52 @@
       "yellow": "#B58900"
     },
     {
+      "background": "#000000",
+      "black": "#000000",
+      "blue": "#3465A4",
+      "brightBlack": "#555753",
+      "brightBlue": "#729FCF",
+      "brightCyan": "#34E2E2",
+      "brightGreen": "#8AE234",
+      "brightPurple": "#AD7FA8",
+      "brightRed": "#EF2929",
+      "brightWhite": "#EEEEEC",
+      "brightYellow": "#FCE94F",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#06989A",
+      "foreground": "#D3D7CF",
+      "green": "#4E9A06",
+      "name": "Tango Dark",
+      "purple": "#75507B",
+      "red": "#CC0000",
+      "selectionBackground": "#FFFFFF",
+      "white": "#D3D7CF",
+      "yellow": "#C4A000"
+    },
+    {
+      "background": "#FFFFFF",
+      "black": "#000000",
+      "blue": "#3465A4",
+      "brightBlack": "#555753",
+      "brightBlue": "#729FCF",
+      "brightCyan": "#34E2E2",
+      "brightGreen": "#8AE234",
+      "brightPurple": "#AD7FA8",
+      "brightRed": "#EF2929",
+      "brightWhite": "#EEEEEC",
+      "brightYellow": "#FCE94F",
+      "cursorColor": "#000000",
+      "cyan": "#06989A",
+      "foreground": "#555753",
+      "green": "#4E9A06",
+      "name": "Tango Light",
+      "purple": "#75507B",
+      "red": "#CC0000",
+      "selectionBackground": "#555753",
+      "white": "#D3D7CF",
+      "yellow": "#C4A000"
+    },
+    {
       "background": "#300A24",
       "black": "#171421",
       "blue": "#0037DA",
@@ -428,25 +476,27 @@
       "yellow": "#808000"
     },
     {
-      "name": "Nord",
-      "foreground": "#D8DEE9",
-      "background": "#2E3440",
+      "background": "#E5E9F0",
       "black": "#3B4252",
-      "red": "#BF616A",
-      "green": "#A3BE8C",
-      "yellow": "#EBCB8B",
       "blue": "#81A1C1",
-      "purple": "#B48EAD",
-      "cyan": "#88C0D0",
-      "white": "#E5E9F0",
       "brightBlack": "#4C566A",
-      "brightRed": "#BF616A",
-      "brightGreen": "#A3BE8C",
-      "brightYellow": "#EBCB8B",
       "brightBlue": "#81A1C1",
+      "brightCyan": "#8FBCBB",
+      "brightGreen": "#A3BE8C",
       "brightPurple": "#B48EAD",
-      "brightCyan": "#88C0D0",
-      "brightWhite": "#E5E9F0"
+      "brightRed": "#BF616A",
+      "brightWhite": "#ECEFF4",
+      "brightYellow": "#EBCB8B",
+      "cursorColor": "#88C0D0",
+      "cyan": "#88C0D0",
+      "foreground": "#414858",
+      "green": "#A3BE8C",
+      "name": "nord-light",
+      "purple": "#B48EAD",
+      "red": "#BF616A",
+      "selectionBackground": "#D8DEE9",
+      "white": "#D8DEE9",
+      "yellow": "#EBCB8B"
     }
   ],
   "themes": [],
