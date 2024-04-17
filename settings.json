@@ -1,9 +1,11 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions": [
+  "actions":
+  [
     {
-      "command": {
+      "command":
+      {
         "action": "copy",
         "singleLine": false
       },
@@ -14,16 +16,17 @@
       "keys": "ctrl+v"
     },
     {
-      "command": {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command":
+      {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "keys": "alt+shift+d"
-    },
-    {
-      "command": "find",
-      "keys": "ctrl+shift+f"
     }
   ],
   "confirmCloseAllTabs": false,
@@ -32,151 +35,220 @@
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "initialCols": 180,
   "initialRows": 40,
-  "newTabMenu": [
+  "newTabMenu":
+  [
     {
       "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
       "type": "profile"
     },
     {
-      "type": "separator"
+      "profile": "{9c0c0bb3-3851-442e-9995-602da0f73aa9}",
+      "type": "profile"
     },
     {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
+      "profile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      "type": "profile"
+    },
+    {
+      "profile": "{1a79bea6-c603-4e67-83c0-423befd02998}",
       "type": "profile"
     },
     {
       "type": "separator"
     },
     {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba31}",
-      "type": "profile"
+      "allowEmpty": true,
+      "entries":
+      [
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
+          "type": "profile"
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba31}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba32}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba33}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba34}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba35}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba36}",
+          "type": "profile"
+        }
+      ],
+      "icon": null,
+      "inline": "never",
+      "name": "dev02",
+      "type": "folder"
     },
     {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba32}",
-      "type": "profile"
-    },
-    {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba33}",
-      "type": "profile"
-    },
-    {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba34}",
-      "type": "profile"
-    },
-    {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba35}",
-      "type": "profile"
-    },
-    {
-      "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba36}",
-      "type": "profile"
+      "allowEmpty": true,
+      "entries":
+      [
+        {
+          "profile": "{f59e6da4-95ec-4c41-9daa-7b743f30ef26}",
+          "type": "profile"
+        },
+        {
+          "profile": "{7b84e5a5-2a26-44e4-9b9e-793a5560cbb9}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f0cc0047-c9f0-4133-9b78-b7ee9943e96e}",
+          "type": "profile"
+        },
+        {
+          "profile": "{f59d8f8f-18c8-4edf-b4d3-b2afec2b909a}",
+          "type": "profile"
+        },
+        {
+          "profile": "{35c5f997-83a9-4786-b139-f98deb4051a1}",
+          "type": "profile"
+        },
+        {
+          "profile": "{1a0e47ad-82a7-46c2-8c73-bef3ad55c5d7}",
+          "type": "profile"
+        }
+      ],
+      "icon": null,
+      "inline": "never",
+      "name": "dev11",
+      "type": "folder"
     }
   ],
-  "profiles": {
-    "defaults": {
+  "profiles":
+  {
+    "defaults":
+    {
+      "antialiasingMode": "cleartype",
+      "bellStyle": "window",
       "colorScheme": "One Half Dark",
       "cursorShape": "filledBox",
-      "font": {
+      "font":
+      {
         "face": "JetBrainsMono Nerd Font",
         "size": 10.0
       },
-      "opacity": 100,
-      "useAtlasEngine": true,
-      "antialiasingMode": "cleartype",
-      "bellStyle": "window"
+      "hidden": false,
+      "opacity": 95,
+      "useAtlasEngine": true
     },
-    "list": [
+    "list":
+    [
       {
-        "colorScheme": "One Half Dark",
-        "cursorShape": "filledBox",
-        "font": {
-          "face": "JetBrainsMono Nerd Font",
-          "size": 10.0
-        },
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "name": "PowerShell",
-        "opacity": 95,
         "source": "Windows.Terminal.PowershellCore"
       },
       {
-        "colorScheme": "One Half Dark",
-        "commandline": "\"C:\\Users\\GerritSchrader\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
-        "cursorShape": "emptyBox",
+        "colorScheme": "Campbell Powershell",
+        "commandline": "%PROGRAMFILES%\\PowerShell\\7\\pwsh.exe",
         "elevate": true,
-        "font": {
-          "face": "JetBrainsMono Nerd Font",
-          "size": 11.0
-        },
         "guid": "{9c0c0bb3-3851-442e-9995-602da0f73aa9}",
-        "hidden": false,
         "icon": "ms-appx:///ProfileIcons/pwsh.png",
         "name": "PowerShell (Administrator)",
-        "opacity": 95,
         "startingDirectory": "%USERPROFILE%"
       },
       {
-        "colorScheme": "One Half Dark",
-        "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
-        "cursorShape": "filledBox",
-        "font": {
-          "size": 10.0
-        },
+        "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
         "guid": "{1a79bea6-c603-4e67-83c0-423befd02998}",
-        "hidden": false,
         "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
         "name": "Git Bash",
         "startingDirectory": null,
         "tabTitle": "Git Bash"
       },
       {
-        "colorScheme": "One Half Dark",
         "commandline": "%SystemRoot%\\System32\\cmd.exe",
-        "cursorShape": "filledBox",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "hidden": false,
-        "name": "Eingabeaufforderung",
-        "opacity": 95,
-        "useAcrylic": true
+        "hidden": true,
+        "name": "Eingabeaufforderung"
       },
       {
-        "commandline": "wt --title d02sbpn01 --profile ssh_profile ssh d02sbpn01",
+        "commandline": "wt --window 0 --title d02sbpn01 --profile ssh_profile ssh -t d02sbpn01 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba31}",
         "name": "d02sbpn01"
       },
       {
-        "commandline": "wt --title d02sbpn02 --profile ssh_profile ssh d02sbpn02",
+        "commandline": "wt --window 0 --title d02sbpn02 --profile ssh_profile ssh -t d02sbpn02 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba32}",
         "name": "d02sbpn02"
       },
       {
-        "commandline": "wt --title d02sbpn03 --profile ssh_profile ssh d02sbpn03",
+        "commandline": "wt --window 0 --title d02sbpn03 --profile ssh_profile ssh -t d02sbpn03 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba33}",
         "name": "d02sbpn03"
       },
       {
-        "commandline": "wt --title d02sbpn04 --profile ssh_profile ssh d02sbpn04",
+        "commandline": "wt --window 0 --title d02sbpn04 --profile ssh_profile ssh -t d02sbpn04 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba34}",
         "name": "d02sbpn04"
       },
       {
-        "commandline": "wt --title d02sbpn05 --profile ssh_profile ssh d02sbpn05",
+        "commandline": "wt --window 0 --title d02sbpn05 --profile ssh_profile ssh -t d02sbpn05 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba35}",
         "name": "d02sbpn05"
       },
       {
-        "commandline": "wt --title d02sbpn06 --profile ssh_profile ssh d02sbpn06",
+        "commandline": "wt --window 0 --title d02sbpn06 --profile ssh_profile ssh -t d02sbpn06 sudo su",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba36}",
         "name": "d02sbpn06"
       },
       {
         "commandline": "wt --title d02sbpn01 --profile log_profile ssh d02sbpn01 sudo tail -f /var/log/isbpn/isbpnserver/application.log; split-pane --vertical --size 0.66 --title d02sbpn02 --profile log_profile ssh d02sbpn02 sudo tail -f /var/log/isbpn/isbpnserver/application.log; split-pane --vertical --title d02sbpn03 --profile log_profile ssh d02sbpn03 sudo tail -f /var/log/isbpn/isbpnserver/application.log; move-focus first; split-pane --horizontal --title d02sbpn04 --profile log_profile ssh d02sbpn04 sudo tail -f /var/log/isbpn/isbpnserver/application.log; move-focus right; split-pane --horizontal --size 0.5 --title d02sbpn05 --profile log_profile ssh d02sbpn05 sudo tail -f /var/log/isbpn/isbpnserver/application.log; move-focus right; split-pane --horizontal --title d02sbpn06 --profile log_profile ssh d02sbpn06",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
-        "name": "Logs 3x2"
+        "name": "logs 3x2"
       },
       {
-        "colorScheme": "nord-light",
-        "font": {
+        "commandline": "wt --window 0 --title d11sbpn01 --profile ssh_profile ssh -t d11sbpn01 sudo su",
+        "guid": "{f59e6da4-95ec-4c41-9daa-7b743f30ef26}",
+        "name": "d11sbpn01"
+      },
+      {
+        "commandline": "wt --window 0 --title d11sbpn02 --profile ssh_profile ssh -t d11sbpn02 sudo su",
+        "guid": "{7b84e5a5-2a26-44e4-9b9e-793a5560cbb9}",
+        "name": "d11sbpn02"
+      },
+      {
+        "commandline": "wt --window 0 --title d11sbpn03 --profile ssh_profile ssh -t d11sbpn03 sudo su",
+        "guid": "{f0cc0047-c9f0-4133-9b78-b7ee9943e96e}",
+        "name": "d11sbpn03"
+      },
+      {
+        "commandline": "wt --window 0 --title d11sbpn04 --profile ssh_profile ssh -t d11sbpn04 sudo su",
+        "guid": "{f59d8f8f-18c8-4edf-b4d3-b2afec2b909a}",
+        "name": "d11sbpn04"
+      },
+      {
+        "commandline": "wt --window 0 --title d11sbpn05 --profile ssh_profile ssh -t d11sbpn05 sudo su",
+        "guid": "{35c5f997-83a9-4786-b139-f98deb4051a1}",
+        "name": "d11sbpn05"
+      },
+      {
+        "commandline": "wt --window 0 --title d11sbpn06 --profile ssh_profile ssh -t d11sbpn06 sudo su",
+        "guid": "{1a0e47ad-82a7-46c2-8c73-bef3ad55c5d7}",
+        "name": "d11sbpn06"
+      },
+      {
+        "colorScheme": "AtomOneLight",
+        "font":
+        {
           "face": "JetBrainsMono Nerd Font",
           "size": 9.0
         },
@@ -186,19 +258,44 @@
         "padding": "4"
       },
       {
-        "colorScheme": "Nord",
-        "font": {
-          "face": "JetBrainsMono Nerd Font",
-          "size": 10.0
-        },
+        "colorScheme": "One Half Dark",
         "guid": "{f26b2ea6-949e-439b-b2c9-8eb832babaac}",
         "hidden": true,
-        "name": "ssh_profile",
-        "opacity": 95
+        "name": "ssh_profile"
+      },
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "Ubuntu-20.04",
+        "source": "Windows.Terminal.Wsl"
       }
     ]
   },
-  "schemes": [
+  "schemes":
+  [
+    {
+      "background": "#F9F9F9",
+      "black": "#000000",
+      "blue": "#2F5AF3",
+      "brightBlack": "#000000",
+      "brightBlue": "#2F5AF3",
+      "brightCyan": "#3F953A",
+      "brightGreen": "#3F953A",
+      "brightPurple": "#A00095",
+      "brightRed": "#DE3E35",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#D2B67C",
+      "cursorColor": "#BBBBBB",
+      "cyan": "#3F953A",
+      "foreground": "#2A2C33",
+      "green": "#3F953A",
+      "name": "AtomOneLight",
+      "purple": "#950095",
+      "red": "#DE3E35",
+      "selectionBackground": "#EDEDED",
+      "white": "#BBBBBB",
+      "yellow": "#D2B67C"
+    },
     {
       "background": "#0C0C0C",
       "black": "#0C0C0C",
@@ -244,29 +341,6 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
-    },
-    {
-      "background": "#2E3440",
-      "black": "#3B4252",
-      "blue": "#81A1C1",
-      "brightBlack": "#4C566A",
-      "brightBlue": "#81A1C1",
-      "brightCyan": "#88C0D0",
-      "brightGreen": "#A3BE8C",
-      "brightPurple": "#B48EAD",
-      "brightRed": "#BF616A",
-      "brightWhite": "#E5E9F0",
-      "brightYellow": "#EBCB8B",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#88C0D0",
-      "foreground": "#D8DEE9",
-      "green": "#A3BE8C",
-      "name": "Nord",
-      "purple": "#B48EAD",
-      "red": "#BF616A",
-      "selectionBackground": "#FFFFFF",
-      "white": "#E5E9F0",
-      "yellow": "#EBCB8B"
     },
     {
       "background": "#282C34",
@@ -422,29 +496,6 @@
       "cyan": "#3A96DD",
       "foreground": "#FFFFFF",
       "green": "#26A269",
-      "name": "Ubuntu-22.04-ColorScheme",
-      "purple": "#881798",
-      "red": "#C21A23",
-      "selectionBackground": "#FFFFFF",
-      "white": "#CCCCCC",
-      "yellow": "#A2734C"
-    },
-    {
-      "background": "#300A24",
-      "black": "#171421",
-      "blue": "#0037DA",
-      "brightBlack": "#767676",
-      "brightBlue": "#08458F",
-      "brightCyan": "#2C9FB3",
-      "brightGreen": "#26A269",
-      "brightPurple": "#A347BA",
-      "brightRed": "#C01C28",
-      "brightWhite": "#F2F2F2",
-      "brightYellow": "#A2734C",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#3A96DD",
-      "foreground": "#FFFFFF",
-      "green": "#26A269",
       "name": "Ubuntu-ColorScheme",
       "purple": "#881798",
       "red": "#C21A23",
@@ -474,29 +525,6 @@
       "selectionBackground": "#FFFFFF",
       "white": "#C0C0C0",
       "yellow": "#808000"
-    },
-    {
-      "background": "#E5E9F0",
-      "black": "#3B4252",
-      "blue": "#81A1C1",
-      "brightBlack": "#4C566A",
-      "brightBlue": "#81A1C1",
-      "brightCyan": "#8FBCBB",
-      "brightGreen": "#A3BE8C",
-      "brightPurple": "#B48EAD",
-      "brightRed": "#BF616A",
-      "brightWhite": "#ECEFF4",
-      "brightYellow": "#EBCB8B",
-      "cursorColor": "#88C0D0",
-      "cyan": "#88C0D0",
-      "foreground": "#414858",
-      "green": "#A3BE8C",
-      "name": "nord-light",
-      "purple": "#B48EAD",
-      "red": "#BF616A",
-      "selectionBackground": "#D8DEE9",
-      "white": "#D8DEE9",
-      "yellow": "#EBCB8B"
     }
   ],
   "themes": [],
