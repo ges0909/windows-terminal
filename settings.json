@@ -1,11 +1,9 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions":
-  [
+  "actions": [
     {
-      "command":
-      {
+      "command": {
         "action": "copy",
         "singleLine": false
       },
@@ -20,8 +18,7 @@
       "keys": "ctrl+shift+f"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -35,8 +32,7 @@
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "initialCols": 180,
   "initialRows": 40,
-  "newTabMenu":
-  [
+  "newTabMenu": [
     {
       "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
       "type": "profile"
@@ -58,8 +54,7 @@
     },
     {
       "allowEmpty": true,
-      "entries":
-      [
+      "entries": [
         {
           "profile": "{f26b2ea6-949e-439b-b2c9-8eb832baba38}",
           "type": "profile"
@@ -99,8 +94,7 @@
     },
     {
       "allowEmpty": true,
-      "entries":
-      [
+      "entries": [
         {
           "profile": "{f59e6da4-95ec-4c41-9daa-7b743f30ef26}",
           "type": "profile"
@@ -132,16 +126,13 @@
       "type": "folder"
     }
   ],
-  "profiles":
-  {
-    "defaults":
-    {
+  "profiles": {
+    "defaults": {
       "antialiasingMode": "cleartype",
       "bellStyle": "window",
       "colorScheme": "One Half Dark",
       "cursorShape": "filledBox",
-      "font":
-      {
+      "font": {
         "face": "JetBrainsMono Nerd Font",
         "size": 10.0
       },
@@ -149,8 +140,7 @@
       "opacity": 95,
       "useAtlasEngine": true
     },
-    "list":
-    [
+    "list": [
       {
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
@@ -171,8 +161,8 @@
         "guid": "{1a79bea6-c603-4e67-83c0-423befd02998}",
         "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
         "name": "Git Bash",
-        "startingDirectory": null,
-        "tabTitle": "Git Bash"
+        "tabTitle": "Git Bash",
+        "startingDirectory": "%USERPROFILE%"
       },
       {
         "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -246,9 +236,8 @@
         "name": "d11sbpn06"
       },
       {
-        "colorScheme": "AtomOneLight",
-        "font":
-        {
+        "colorScheme": "One Half Light",
+        "font": {
           "face": "JetBrainsMono Nerd Font",
           "size": 9.0
         },
@@ -271,31 +260,7 @@
       }
     ]
   },
-  "schemes":
-  [
-    {
-      "background": "#F9F9F9",
-      "black": "#000000",
-      "blue": "#2F5AF3",
-      "brightBlack": "#000000",
-      "brightBlue": "#2F5AF3",
-      "brightCyan": "#3F953A",
-      "brightGreen": "#3F953A",
-      "brightPurple": "#A00095",
-      "brightRed": "#DE3E35",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#D2B67C",
-      "cursorColor": "#BBBBBB",
-      "cyan": "#3F953A",
-      "foreground": "#2A2C33",
-      "green": "#3F953A",
-      "name": "AtomOneLight",
-      "purple": "#950095",
-      "red": "#DE3E35",
-      "selectionBackground": "#EDEDED",
-      "white": "#BBBBBB",
-      "yellow": "#D2B67C"
-    },
+  "schemes": [
     {
       "background": "#0C0C0C",
       "black": "#0C0C0C",
@@ -479,6 +444,29 @@
       "selectionBackground": "#555753",
       "white": "#D3D7CF",
       "yellow": "#C4A000"
+    },
+    {
+      "background": "#300A24",
+      "black": "#171421",
+      "blue": "#0037DA",
+      "brightBlack": "#767676",
+      "brightBlue": "#08458F",
+      "brightCyan": "#2C9FB3",
+      "brightGreen": "#26A269",
+      "brightPurple": "#A347BA",
+      "brightRed": "#C01C28",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#A2734C",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#3A96DD",
+      "foreground": "#FFFFFF",
+      "green": "#26A269",
+      "name": "Ubuntu-22.04-ColorScheme",
+      "purple": "#881798",
+      "red": "#C21A23",
+      "selectionBackground": "#FFFFFF",
+      "white": "#CCCCCC",
+      "yellow": "#A2734C"
     },
     {
       "background": "#300A24",
