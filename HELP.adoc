@@ -1,0 +1,6 @@
+= Help
+
+[,shell]
+----
+winget install --id=DEVCOM.JetBrainsMonoNerdFont  -e
+----
